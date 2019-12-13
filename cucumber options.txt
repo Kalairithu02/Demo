@@ -1,0 +1,31 @@
+Cucumber Options:
+--------------------
+1) features
+2) glue
+3) dryRun
+4) strict
+5) tags
+6) monochrome
+7) plugin
+,monochrome=true,plugin= {"html:C:\\Users\\USER\\eclipse-workspace\\Scanner1\\Greens\\target"}
+
+
+
+Tags
+
+T T =T
+T F=F
+F T =F
+F F =F
+
+OR
+
+T T=T
+T F=T
+F T=T
+F F=F
+
+
+
+
+
