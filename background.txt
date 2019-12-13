@@ -1,0 +1,16 @@
+Background in cucumber
+---------------------
+it is to represent a collective list of pre conditions
+for all the scenarios
+It allows you to add some context (info) to the scenarios
+in the feature file
+it can contain one or more given steps
+
+it performs much like hooks(@before)
+Runs before each scenario
+Where as hook have both before and after
+
+we can have mutiple hooks(before,after) for a scenario
+but incase of background
+we can only have one set of background steps per feature
+in case of multiple background needed,we have write separate feature files.
